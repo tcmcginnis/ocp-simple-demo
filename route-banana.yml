@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: banana-ingress
+spec:
+  host: banana.apps.ocp410.mclabs.us
+  port:
+    targetPort: 5678
+  to:
+    kind: Service
+    name: banana-service

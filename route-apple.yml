@@ -1,0 +1,11 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: apple-ingress
+spec:
+  host: apple.apps.ocp410.mclabs.us
+  port:
+    targetPort: 5678
+  to:
+    kind: Service
+    name: apple-service
