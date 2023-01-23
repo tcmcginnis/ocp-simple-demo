@@ -1,0 +1,4 @@
+apiVersion: kustomizae.config.k8s/v1beta1
+kind: kustomization
+main:
+- ./
