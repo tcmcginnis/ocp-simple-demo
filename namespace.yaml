@@ -3,4 +3,4 @@ kind: Project
 metadata:
   labels:
     kubernetes.io/metadata.name: demo
-  name: demo
+  name: demo3
