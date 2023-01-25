@@ -4,6 +4,7 @@ metadata:
   name: banana-app
   labels:
     app: banana
+  namespace: demo2
 spec:
   containers:
     - name: banana-app
