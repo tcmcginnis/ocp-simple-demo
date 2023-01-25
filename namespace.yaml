@@ -2,5 +2,5 @@ apiVersion: project.openshift.io/v1
 kind: Project
 metadata:
   labels:
-    kubernetes.io/metadata.name: demo
-  name: demo3
+    kubernetes.io/metadata.name: demo2
+  name: demo2
