@@ -18,6 +18,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: banana-service
+  namespace: demo2
 spec:
   selector:
     app: banana
