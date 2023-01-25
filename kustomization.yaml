@@ -1,4 +1,5 @@
-apiVersion: kustomizae.config.k8s/v1beta1
-kind: kustomization
-main:
-- ./
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- apple.yml
+- route-apple.yml
