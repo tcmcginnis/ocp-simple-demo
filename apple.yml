@@ -5,7 +5,7 @@ metadata:
   labels:
     app: apple
     application: shard-1
-#  namespace: demo2
+  namespace: demo2
 spec:
   containers:
     - name: apple-app
@@ -19,7 +19,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: apple-service
-#  namespace: demo2
+  namespace: demo2
 spec:
   selector:
     app: apple
