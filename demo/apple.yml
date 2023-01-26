@@ -19,7 +19,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: apple-service
-  namespace: demo2
+  namespace: default
 spec:
   selector:
     app: apple
