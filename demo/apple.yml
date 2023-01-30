@@ -4,7 +4,6 @@ metadata:
   name: apple-app
   labels:
     app: apple
-    demolabel: demo
 #    application: shard-1
   namespace: argocd
 spec:
@@ -12,7 +11,7 @@ spec:
     - name: apple-app
       image: hashicorp/http-echo
       args:
-        - "-text=applepie"
+        - "-text=apple"
 
 ---
 
