@@ -2,9 +2,9 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
   name: apple-ingress
-#  namespace: demo2
+  namespace: demo
 spec:
-  host: apple.apps.ocp410.mclabs.us
+  host: apple.apps.ocp4.mclabs.us
   port:
     targetPort: 5678
   to:
